@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
+import ButtonTemplate from "../components/button_template";
 
 const AboutChickenFarm: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const AboutChickenFarm: React.FC = () => {
         ensure that our chickens are well-cared for. Thank you for supporting
         our farm!
       </Text>
+      <ButtonTemplate link={"/"} text={"Back to Home"} color="green" />
     </View>
   );
 };

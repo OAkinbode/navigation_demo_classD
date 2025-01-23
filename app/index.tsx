@@ -7,6 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Howdi! Welcome to my farm</Text>
       <ButtonTemplate link={"/about"} text={"Go About"} color="red" />
+      <ButtonTemplate link={"/(tabs)"} text={"Tabs"} color="green" />
     </View>
   );
 }
